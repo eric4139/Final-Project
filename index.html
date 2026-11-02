@@ -1,41 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Quick Demo</title>
-    <link rel="stylesheet" href="style.css" />
-    <script src="truc.js" defer></script>
-  </head>
-  <body>
-    <main class="app">
-      <section class="card">
-        <span class="badge">Quick demo</span>
-        <h1>Build something amazing.</h1>
-        <p>
-          Fast, clean, and ready to ship — a simple concept to get your next idea moving.
-        </p>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Musique 3000</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
-        <div class="actions">
-          <button class="primary">Start now</button>
-          <button class="secondary">Learn more</button>
-        </div>
 
-        <div class="stats">
-          <div>
-            <strong>24k</strong>
-            <span>Users</span>
-          </div>
-          <div>
-            <strong>4.9/5</strong>
-            <span>Rating</span>
-          </div>
-          <div>
-            <strong>3x</strong>
-            <span>Faster</span>
-          </div>
-        </div>
-      </section>
-    </main>
-  </body>
+<h1 style="text-align: center; font-family: fantasy;">Music 3000</h1>
+
+
+
+<div id="Buttons">
+  <button id="Red" class="PlayButton">Play Music</button>
+  <button id="Blue" class="PlayButton">Play Music</button>
+  <button id="Green" class="PlayButton">Play Music</button>
+  <button id="Yellow" class="PlayButton">Play Music</button>
+</div>
+
+
+<div id="Mixes">
+
+  <div class="mix" data-mix="1">
+    <input type="checkbox"><input type="checkbox"><input type="checkbox"><input type="checkbox">
+    <input type="checkbox"><input type="checkbox"><input type="checkbox"><input type="checkbox">
+    <button class="valider">Valider mix 1</button>
+  </div>
+
+
+  <div class="mix" data-mix="2">
+    <input type="checkbox"><input type="checkbox"><input type="checkbox"><input type="checkbox">
+    <input type="checkbox"><input type="checkbox"><input type="checkbox"><input type="checkbox">
+    <button class="valider">Valider mix 2</button>
+  </div>
+
+
+  <div class="mix" data-mix="3">
+  <input type="checkbox"><input type="checkbox"><input type="checkbox"><input type="checkbox">
+  <input type="checkbox"><input type="checkbox"><input type="checkbox"><input type="checkbox">
+  <button class="valider">Valider mix 3</button>
+  </div>
+
+
+  <div class="mix" data-mix="4">
+  <input type="checkbox"><input type="checkbox"><input type="checkbox"><input type="checkbox">
+  <input type="checkbox"><input type="checkbox"><input type="checkbox"><input type="checkbox">
+  <button class="valider">Valider mix 4</button>
+  </div>
+
+</div>
+
+
+
+
+
+
+
+
+<input type="range" id="Slider" min="0" max="100" value="50">
+
+
+</body> 
 </html>
