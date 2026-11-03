@@ -8,10 +8,11 @@
 </head>
 <body>
 
-
 <h1 style="text-align: center; font-family: fantasy;">Music 3000</h1>
 
+<script src="truc.js" defer></script>
 
+<button id="connectBtn">Connecter l'Arduino Uno</button>
 
 <div id="Buttons">
   <button id="Red" class="PlayButton">Play Music</button>
@@ -52,7 +53,13 @@
 
 </div>
 
+<div id="Controles">
+  <!-- Gros bouton : envoie les 4 mix et lance la musique -->
+  <button id="boutonPrincipal">▶ Valider tout et lancer la musique</button>
 
+  <!-- Bouton stop : arrête la musique et efface les mix -->
+  <button id="boutonStop">⏹ Stop / Reset</button>
+</div>
 
 
 
@@ -60,6 +67,9 @@
 
 
 <input type="range" id="Slider" min="0" max="100" value="50">
+
+<!-- Messages reçus de l'Arduino Uno -->
+<ul id="output"></ul>
 
 
 </body> 

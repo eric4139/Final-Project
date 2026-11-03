@@ -11,6 +11,7 @@ body {
     opacity: 1;
     color: white;
     font-family: fantasy;
+    
   }
 
 
@@ -22,14 +23,18 @@ body {
     align-items: center;
     margin-top: 200px;
     height: 100px;
+    border: 1px solid rgb(0, 8, 255);
+    border-radius: 1000000000000000000000000000000000000000000000px;
+    border-width: 5px;
   } 
 
 
 
-#Buttons {
+  #Buttons {
     display: flex;
     flex-direction: row;
     justify-content:flex-start;
+    
 }
 
 
@@ -39,6 +44,7 @@ body {
   margin: 0 auto;
   padding: 10px 20px;
   font-size: 16px;
+  cursor: pointer;
 }
 
 
@@ -48,6 +54,7 @@ body {
   margin: 0 auto;
   padding: 10px 20px;
   font-size: 16px;
+  cursor: pointer;
 }
 
 
@@ -58,6 +65,7 @@ body {
   margin: 0 auto;
   padding: 10px 20px;
   font-size: 16px;
+  cursor: pointer;
 }
 
 
@@ -67,5 +75,48 @@ body {
   margin: 0 auto;
   padding: 10px 20px;
   font-size: 16px;
+  cursor: pointer;
 }
 
+
+
+/* Gros bouton qui valide les 4 mix et lance la musique */
+#Controles {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin: 40px auto;
+}
+
+#boutonPrincipal {
+  padding: 25px 50px;
+  font-size: 28px;
+  font-family: fantasy;
+  color: white;
+  background-color: rgb(120, 0, 200);
+  border: 5px solid rgb(0, 8, 255);
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+#boutonPrincipal:hover {
+  background-color: rgb(150, 30, 230);
+}
+
+/* Bouton stop : arrête la musique et efface les mix */
+#boutonStop {
+  padding: 25px 40px;
+  font-size: 28px;
+  font-family: fantasy;
+  color: white;
+  background-color: rgb(200, 0, 0);
+  border: 5px solid rgb(90, 0, 0);
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+#boutonStop:hover {
+  background-color: rgb(230, 40, 40);
+}
