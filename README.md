@@ -1,7 +1,7 @@
 # Thomas dog bell
 
 Voici la table des matières de mon rendu
-- [Code of the electronic part↗](cwiot/project.ino)
+- [Code of the electronic part↗](test_project_final/test_project_final.ino)
 - [schematic view](#schematic-view)
 - [Moodboard](#moodboard)
 - [UI on figma](#figma-ui)
@@ -11,7 +11,7 @@ Voici la table des matières de mon rendu
 ## schematic view
 <picture>
     <img
-        src="images/Madagascar_Theatrical_Poster.jpg"
+        src="images/xxxxx"
         alt="schematic view" 
         height="360" 
         width="640" 
