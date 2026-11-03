@@ -76,6 +76,7 @@ void jouer(int buzzer, unsigned long duree) {
 
 // Fait vibrer les buzzers qui doivent sonner, et coupe ceux qui ont fini
 void faireVibrerBuzzers() {
+  if (musiqueEnCours == false) return;
   for (int i = 0; i < NB_BUZZERS; i++) {
     if (!sonne[i]) continue;
 
